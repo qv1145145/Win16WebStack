@@ -1,0 +1,417 @@
+!define BLANK ""
+E:\Project\QuickJS\main.obj : E:\Project\QuickJS\main.c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc main.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/win" -w0 -&
+e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows -ml
+
+E:\Project\QuickJS\cutils.obj : E:\Project\QuickJS\src\cutils.c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\cutils.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/win"&
+ -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows -ml
+
+E:\Project\QuickJS\debuglog.obj : E:\Project\QuickJS\src\debuglog.c .AUTODEP&
+END
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\debuglog.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/wi&
+n" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows -ml
+
+E:\Project\QuickJS\dtoa.obj : E:\Project\QuickJS\src\dtoa.c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\dtoa.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/win" -&
+w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows -ml
+
+E:\Project\QuickJS\ft_malloc.obj : E:\Project\QuickJS\src\ft_malloc.c .AUTOD&
+EPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\ft_malloc.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/w&
+in" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows -ml
+
+E:\Project\QuickJS\js_arrays.obj : E:\Project\QuickJS\src\js_arrays.c .AUTOD&
+EPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_arrays.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/w&
+in" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows -ml
+
+E:\Project\QuickJS\js_internal1.obj : E:\Project\QuickJS\src\js_internal1.c &
+.AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal1.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows &
+-ml
+
+E:\Project\QuickJS\js_internal10.obj : E:\Project\QuickJS\src\js_internal10.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal10.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows&
+ -ml
+
+E:\Project\QuickJS\js_internal11.obj : E:\Project\QuickJS\src\js_internal11.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal11.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows&
+ -ml
+
+E:\Project\QuickJS\js_internal12.obj : E:\Project\QuickJS\src\js_internal12.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal12.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows&
+ -ml
+
+E:\Project\QuickJS\js_internal13.obj : E:\Project\QuickJS\src\js_internal13.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal13.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows&
+ -ml
+
+E:\Project\QuickJS\js_internal14.obj : E:\Project\QuickJS\src\js_internal14.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal14.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows&
+ -ml
+
+E:\Project\QuickJS\js_internal15.obj : E:\Project\QuickJS\src\js_internal15.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal15.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows&
+ -ml
+
+E:\Project\QuickJS\js_internal16.obj : E:\Project\QuickJS\src\js_internal16.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal16.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows&
+ -ml
+
+E:\Project\QuickJS\js_internal17.obj : E:\Project\QuickJS\src\js_internal17.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal17.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows&
+ -ml
+
+E:\Project\QuickJS\js_internal18.obj : E:\Project\QuickJS\src\js_internal18.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal18.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows&
+ -ml
+
+E:\Project\QuickJS\js_internal19.obj : E:\Project\QuickJS\src\js_internal19.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal19.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows&
+ -ml
+
+E:\Project\QuickJS\js_internal2.obj : E:\Project\QuickJS\src\js_internal2.c &
+.AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal2.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows &
+-ml
+
+E:\Project\QuickJS\js_internal20.obj : E:\Project\QuickJS\src\js_internal20.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal20.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows&
+ -ml
+
+E:\Project\QuickJS\js_internal21.obj : E:\Project\QuickJS\src\js_internal21.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal21.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows&
+ -ml
+
+E:\Project\QuickJS\js_internal22.obj : E:\Project\QuickJS\src\js_internal22.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal22.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows&
+ -ml
+
+E:\Project\QuickJS\js_internal23.obj : E:\Project\QuickJS\src\js_internal23.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal23.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows&
+ -ml
+
+E:\Project\QuickJS\js_internal24.obj : E:\Project\QuickJS\src\js_internal24.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal24.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows&
+ -ml
+
+E:\Project\QuickJS\js_internal25.obj : E:\Project\QuickJS\src\js_internal25.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal25.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows&
+ -ml
+
+E:\Project\QuickJS\js_internal3.obj : E:\Project\QuickJS\src\js_internal3.c &
+.AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal3.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows &
+-ml
+
+E:\Project\QuickJS\js_internal4.obj : E:\Project\QuickJS\src\js_internal4.c &
+.AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal4.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows &
+-ml
+
+E:\Project\QuickJS\js_internal5.obj : E:\Project\QuickJS\src\js_internal5.c &
+.AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal5.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows &
+-ml
+
+E:\Project\QuickJS\js_internal5_1.obj : E:\Project\QuickJS\src\js_internal5_&
+1.c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal5_1.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCO&
+M/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=window&
+s -ml
+
+E:\Project\QuickJS\js_internal5_2.obj : E:\Project\QuickJS\src\js_internal5_&
+2.c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal5_2.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCO&
+M/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=window&
+s -ml
+
+E:\Project\QuickJS\js_internal6.obj : E:\Project\QuickJS\src\js_internal6.c &
+.AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal6.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows &
+-ml
+
+E:\Project\QuickJS\js_internal7.obj : E:\Project\QuickJS\src\js_internal7.c &
+.AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal7.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows &
+-ml
+
+E:\Project\QuickJS\js_internal8.obj : E:\Project\QuickJS\src\js_internal8.c &
+.AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal8.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows &
+-ml
+
+E:\Project\QuickJS\js_internal9.obj : E:\Project\QuickJS\src\js_internal9.c &
+.AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\js_internal9.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows &
+-ml
+
+E:\Project\QuickJS\libregexp.obj : E:\Project\QuickJS\src\libregexp.c .AUTOD&
+EPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\libregexp.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/w&
+in" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows -ml
+
+E:\Project\QuickJS\libunicode-table.obj : E:\Project\QuickJS\src\libunicode-&
+table.c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\libunicode-table.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WAT&
+COM/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=wind&
+ows -ml
+
+E:\Project\QuickJS\libunicode-table1.obj : E:\Project\QuickJS\src\libunicode&
+-table1.c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\libunicode-table1.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WA&
+TCOM/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=win&
+dows -ml
+
+E:\Project\QuickJS\libunicode-table2.obj : E:\Project\QuickJS\src\libunicode&
+-table2.c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\libunicode-table2.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WA&
+TCOM/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=win&
+dows -ml
+
+E:\Project\QuickJS\libunicode-table3.obj : E:\Project\QuickJS\src\libunicode&
+-table3.c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\libunicode-table3.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WA&
+TCOM/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=win&
+dows -ml
+
+E:\Project\QuickJS\libunicode-table3_1.obj : E:\Project\QuickJS\src\libunico&
+de-table3_1.c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\libunicode-table3_1.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\&
+WATCOM/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=w&
+indows -ml
+
+E:\Project\QuickJS\libunicode-table4.obj : E:\Project\QuickJS\src\libunicode&
+-table4.c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\libunicode-table4.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WA&
+TCOM/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=win&
+dows -ml
+
+E:\Project\QuickJS\libunicode-table5.obj : E:\Project\QuickJS\src\libunicode&
+-table5.c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\libunicode-table5.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WA&
+TCOM/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=win&
+dows -ml
+
+E:\Project\QuickJS\libunicode-table6.obj : E:\Project\QuickJS\src\libunicode&
+-table6.c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\libunicode-table6.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WA&
+TCOM/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=win&
+dows -ml
+
+E:\Project\QuickJS\libunicode-table7.obj : E:\Project\QuickJS\src\libunicode&
+-table7.c .AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\libunicode-table7.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WA&
+TCOM/h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=win&
+dows -ml
+
+E:\Project\QuickJS\libunicode.obj : E:\Project\QuickJS\src\libunicode.c .AUT&
+ODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\libunicode.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/&
+win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows -m&
+l
+
+E:\Project\QuickJS\quickjs-libc.obj : E:\Project\QuickJS\src\quickjs-libc.c &
+.AUTODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\quickjs-libc.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows &
+-ml
+
+E:\Project\QuickJS\quickjs.obj : E:\Project\QuickJS\src\quickjs.c .AUTODEPEN&
+D
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\quickjs.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/win&
+" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows -ml
+
+E:\Project\QuickJS\quickjs2.obj : E:\Project\QuickJS\src\quickjs2.c .AUTODEP&
+END
+ @E:
+ cd E:\Project\QuickJS
+ *wcc src\quickjs2.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/wi&
+n" -w0 -e100 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows -ml
+
+E:\Project\QuickJS\QuickJS.dll : E:\Project\QuickJS\main.obj E:\Project\Quic&
+kJS\cutils.obj E:\Project\QuickJS\debuglog.obj E:\Project\QuickJS\dtoa.obj E&
+:\Project\QuickJS\ft_malloc.obj E:\Project\QuickJS\js_arrays.obj E:\Project\&
+QuickJS\js_internal1.obj E:\Project\QuickJS\js_internal10.obj E:\Project\Qui&
+ckJS\js_internal11.obj E:\Project\QuickJS\js_internal12.obj E:\Project\Quick&
+JS\js_internal13.obj E:\Project\QuickJS\js_internal14.obj E:\Project\QuickJS&
+\js_internal15.obj E:\Project\QuickJS\js_internal16.obj E:\Project\QuickJS\j&
+s_internal17.obj E:\Project\QuickJS\js_internal18.obj E:\Project\QuickJS\js_&
+internal19.obj E:\Project\QuickJS\js_internal2.obj E:\Project\QuickJS\js_int&
+ernal20.obj E:\Project\QuickJS\js_internal21.obj E:\Project\QuickJS\js_inter&
+nal22.obj E:\Project\QuickJS\js_internal23.obj E:\Project\QuickJS\js_interna&
+l24.obj E:\Project\QuickJS\js_internal25.obj E:\Project\QuickJS\js_internal3&
+.obj E:\Project\QuickJS\js_internal4.obj E:\Project\QuickJS\js_internal5.obj&
+ E:\Project\QuickJS\js_internal5_1.obj E:\Project\QuickJS\js_internal5_2.obj&
+ E:\Project\QuickJS\js_internal6.obj E:\Project\QuickJS\js_internal7.obj E:\&
+Project\QuickJS\js_internal8.obj E:\Project\QuickJS\js_internal9.obj E:\Proj&
+ect\QuickJS\libregexp.obj E:\Project\QuickJS\libunicode-table.obj E:\Project&
+\QuickJS\libunicode-table1.obj E:\Project\QuickJS\libunicode-table2.obj E:\P&
+roject\QuickJS\libunicode-table3.obj E:\Project\QuickJS\libunicode-table3_1.&
+obj E:\Project\QuickJS\libunicode-table4.obj E:\Project\QuickJS\libunicode-t&
+able5.obj E:\Project\QuickJS\libunicode-table6.obj E:\Project\QuickJS\libuni&
+code-table7.obj E:\Project\QuickJS\libunicode.obj E:\Project\QuickJS\quickjs&
+-libc.obj E:\Project\QuickJS\quickjs.obj E:\Project\QuickJS\quickjs2.obj .AU&
+TODEPEND
+ @E:
+ cd E:\Project\QuickJS
+ @%write QuickJS.lk1 FIL main.obj,cutils.obj,debuglog.obj,dtoa.obj,ft_malloc&
+.obj,js_arrays.obj,js_internal1.obj,js_internal10.obj,js_internal11.obj,js_i&
+nternal12.obj,js_internal13.obj,js_internal14.obj,js_internal15.obj,js_inter&
+nal16.obj,js_internal17.obj,js_internal18.obj,js_internal19.obj,js_internal2&
+.obj,js_internal20.obj,js_internal21.obj,js_internal22.obj,js_internal23.obj&
+,js_internal24.obj,js_internal25.obj,js_internal3.obj,js_internal4.obj,js_in&
+ternal5.obj,js_internal5_1.obj,js_internal5_2.obj,js_internal6.obj,js_intern&
+al7.obj,js_internal8.obj,js_internal9.obj,libregexp.obj,libunicode-table.obj&
+,libunicode-table1.obj,libunicode-table2.obj,libunicode-table3.obj,libunicod&
+e-table3_1.obj,libunicode-table4.obj,libunicode-table5.obj,libunicode-table6&
+.obj,libunicode-table7.obj,libunicode.obj,quickjs-libc.obj,quickjs.obj,quick&
+js2.obj
+ @%append QuickJS.lk1 
+!ifneq BLANK ""
+ *wlib -q -n -b QuickJS.imp 
+ @%append QuickJS.lk1 LIBR QuickJS.imp
+!endif
+!ifneq BLANK ""
+ @%append QuickJS.lk1 op resource=
+!endif
+ *wlink name QuickJS d all sys windows_dll op m op v op maxe=25 op q op symf&
+ @QuickJS.lk1
+!ifneq BLANK ""
+!endif
+ *wlib -q -n -b QuickJS.lib +QuickJS.dll
+
