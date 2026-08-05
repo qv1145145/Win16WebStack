@@ -1,0 +1,73 @@
+LIBRARY   FREETYPE
+EXETYPE   WINDOWS
+CODE      PRELOAD MOVEABLE DISCARDABLE
+;DATA      PRELOAD MOVEABLE SINGLE
+DATA PRELOAD FIXED SINGLE
+HEAPSIZE  1024
+
+EXPORTS
+    FT_Init_FreeType16
+    FT_New_Face16
+    FT_New_Memory_Face16
+    FT_Open_Face16
+    FT_Get_Glyph16
+    FT_Get_Module16
+    FT_Get_First_Char16
+    FT_Get_Next_Char16
+    FT_Get_CMap_Language_ID16
+    FT_Get_CMap_Format16
+
+    FT_Done_FreeType
+    FT_Done_Face
+    FT_Done_Glyph
+    FT_Set_Char_Size
+    FT_Set_Pixel_Sizes
+    FT_Request_Size
+    FT_Select_Size
+    FT_Load_Glyph
+    FT_Load_Char
+    FT_Render_Glyph
+    FT_Get_Char_Index
+    FT_Get_Name_Index
+    FT_Glyph_Get_CBox
+    FT_Glyph_Copy
+    FT_Glyph_Transform
+    FT_Glyph_To_Bitmap
+    FT_Bitmap_Blit
+    FT_Bitmap_Convert
+    FT_Bitmap_Done
+    FT_Bitmap_Embolden
+    FT_Bitmap_Init
+    FT_Outline_Check
+    FT_Outline_Decompose
+    FT_Outline_Done
+    FT_Outline_Embolden
+    FT_Outline_Get_BBox
+    FT_Outline_Get_CBox
+    FT_Outline_New
+    FT_Outline_Render
+    FT_Outline_Reverse
+    FT_Outline_Transform
+    FT_Get_Kerning
+    FT_Get_Track_Kerning
+    FT_Get_Glyph_Name
+    FT_Get_Postscript_Name
+    FT_Get_Sfnt_Table
+    FT_Load_Sfnt_Table
+    FT_Sfnt_Table_Info
+    FT_Select_Charmap
+    FT_Set_Charmap
+    FT_Get_Charmap_Index
+    FT_Get_CMap_Language_ID
+    FT_Get_CMap_Format
+    FT_Error_String
+    FT_Set_Memory_Operations
+    FT_Set_Debug_Hook
+    FT_Add_Default_Modules
+    FT_Remove_Module
+    FT_Get_Module
+    FT_Property_Set
+    FT_Property_Get
+    FT_Set_Default_Properties
+
+    WEP PRIVATE
