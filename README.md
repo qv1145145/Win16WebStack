@@ -2,8 +2,6 @@
 
 本仓库包含多个开源项目的 Win16 移植版本，每个子目录对应一个项目，
 
-并保留原项目的许可证。除了WolfSSL，其它都是我移植的
-
 本项目适用于 Windows for Workgroups 3.11 上的复古浏览器开发。
 
 | 目录 | 项目 | 原始许可证 |
@@ -20,7 +18,9 @@
 
 仅保证基础功能正常，如果你发现有问题可以把源代码下载下来进行更新，欢迎修补
 
-wolfssl源代码在[这里](https://dialup.net/wingpt/download/wolfssl10.zip)下载
+由于wolfssl的协议限制，在这里给出wolfssl的win16移植版源代码，
+
+在[这里](https://dialup.net/wingpt/download/wolfssl10.zip)下载
 
 ## 许可证
 
