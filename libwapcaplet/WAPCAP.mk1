@@ -1,0 +1,35 @@
+!define BLANK ""
+E:\Project\libwapcaplet\main.obj : E:\Project\libwapcaplet\main.c .AUTODEPEN&
+D
+ @E:
+ cd E:\Project\libwapcaplet
+ *wcc main.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/win" -w4 -&
+e25 -zastd=c99 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=windows -ml
+
+E:\Project\libwapcaplet\libwapcaplet.obj : E:\Project\libwapcaplet\src\libwa&
+pcaplet.c .AUTODEPEND
+ @E:
+ cd E:\Project\libwapcaplet
+ *wcc src\libwapcaplet.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w4 -e25 -zastd=c99 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=windows -ml
+
+E:\Project\libwapcaplet\WAPCAP.dll : E:\Project\libwapcaplet\main.obj E:\Pro&
+ject\libwapcaplet\libwapcaplet.obj E:\Project\libwapcaplet\include\libwapcap&
+let\libwapcaplet.h .AUTODEPEND
+ @E:
+ cd E:\Project\libwapcaplet
+ @%write WAPCAP.lk1 FIL main.obj,libwapcaplet.obj
+ @%append WAPCAP.lk1 
+!ifneq BLANK ""
+ *wlib -q -n -b WAPCAP.imp 
+ @%append WAPCAP.lk1 LIBR WAPCAP.imp
+!endif
+!ifneq BLANK ""
+ @%append WAPCAP.lk1 op resource=
+!endif
+ *wlink name WAPCAP d all sys windows_dll op m op maxe=25 op q op symf @WAPC&
+AP.lk1
+!ifneq BLANK ""
+!endif
+ *wlib -q -n -b WAPCAP.lib +WAPCAP.dll
+

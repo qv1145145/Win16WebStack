@@ -1,0 +1,173 @@
+!define BLANK ""
+E:\Project\libparserutils\main.obj : E:\Project\libparserutils\main.c .AUTOD&
+EPEND
+ @E:
+ cd E:\Project\libparserutils
+ *wcc main.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/win;E:\Pro&
+ject\libparserutils\src;E:\Project\libparserutils\include" -w4 -e25 -zastd=c&
+99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows -ml
+
+E:\Project\libparserutils\aliases.obj : E:\Project\libparserutils\src\charse&
+t\aliases.c .AUTODEPEND
+ @E:
+ cd E:\Project\libparserutils
+ *wcc src\charset\aliases.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATC&
+OM/h/win;E:\Project\libparserutils\src;E:\Project\libparserutils\include" -w&
+4 -e25 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows -ml
+
+E:\Project\libparserutils\codec.obj : E:\Project\libparserutils\src\charset\&
+codec.c .AUTODEPEND
+ @E:
+ cd E:\Project\libparserutils
+ *wcc src\charset\codec.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win;E:\Project\libparserutils\src;E:\Project\libparserutils\include" -w4 &
+-e25 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows -ml
+
+E:\Project\libparserutils\codec_8859.obj : E:\Project\libparserutils\src\cha&
+rset\codecs\codec_8859.c .AUTODEPEND
+ @E:
+ cd E:\Project\libparserutils
+ *wcc src\charset\codecs\codec_8859.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PR&
+OGRAM\WATCOM/h/win;E:\Project\libparserutils\src;E:\Project\libparserutils\i&
+nclude" -w4 -e25 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows &
+-ml
+
+E:\Project\libparserutils\codec_ascii.obj : E:\Project\libparserutils\src\ch&
+arset\codecs\codec_ascii.c .AUTODEPEND
+ @E:
+ cd E:\Project\libparserutils
+ *wcc src\charset\codecs\codec_ascii.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\P&
+ROGRAM\WATCOM/h/win;E:\Project\libparserutils\src;E:\Project\libparserutils\&
+include" -w4 -e25 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows&
+ -ml
+
+E:\Project\libparserutils\codec_ext8.obj : E:\Project\libparserutils\src\cha&
+rset\codecs\codec_ext8.c .AUTODEPEND
+ @E:
+ cd E:\Project\libparserutils
+ *wcc src\charset\codecs\codec_ext8.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PR&
+OGRAM\WATCOM/h/win;E:\Project\libparserutils\src;E:\Project\libparserutils\i&
+nclude" -w4 -e25 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows &
+-ml
+
+E:\Project\libparserutils\codec_utf16.obj : E:\Project\libparserutils\src\ch&
+arset\codecs\codec_utf16.c .AUTODEPEND
+ @E:
+ cd E:\Project\libparserutils
+ *wcc src\charset\codecs\codec_utf16.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\P&
+ROGRAM\WATCOM/h/win;E:\Project\libparserutils\src;E:\Project\libparserutils\&
+include" -w4 -e25 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows&
+ -ml
+
+E:\Project\libparserutils\codec_utf8.obj : E:\Project\libparserutils\src\cha&
+rset\codecs\codec_utf8.c .AUTODEPEND
+ @E:
+ cd E:\Project\libparserutils
+ *wcc src\charset\codecs\codec_utf8.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PR&
+OGRAM\WATCOM/h/win;E:\Project\libparserutils\src;E:\Project\libparserutils\i&
+nclude" -w4 -e25 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows &
+-ml
+
+E:\Project\libparserutils\utf16.obj : E:\Project\libparserutils\src\charset\&
+encodings\utf16.c .AUTODEPEND
+ @E:
+ cd E:\Project\libparserutils
+ *wcc src\charset\encodings\utf16.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROG&
+RAM\WATCOM/h/win;E:\Project\libparserutils\src;E:\Project\libparserutils\inc&
+lude" -w4 -e25 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows -m&
+l
+
+E:\Project\libparserutils\utf8.obj : E:\Project\libparserutils\src\charset\e&
+ncodings\utf8.c .AUTODEPEND
+ @E:
+ cd E:\Project\libparserutils
+ *wcc src\charset\encodings\utf8.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGR&
+AM\WATCOM/h/win;E:\Project\libparserutils\src;E:\Project\libparserutils\incl&
+ude" -w4 -e25 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows -ml
+
+E:\Project\libparserutils\filter.obj : E:\Project\libparserutils\src\input\f&
+ilter.c .AUTODEPEND
+ @E:
+ cd E:\Project\libparserutils
+ *wcc src\input\filter.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win;E:\Project\libparserutils\src;E:\Project\libparserutils\include" -w4 -&
+e25 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows -ml
+
+E:\Project\libparserutils\inputstream.obj : E:\Project\libparserutils\src\in&
+put\inputstream.c .AUTODEPEND
+ @E:
+ cd E:\Project\libparserutils
+ *wcc src\input\inputstream.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WA&
+TCOM/h/win;E:\Project\libparserutils\src;E:\Project\libparserutils\include" &
+-w4 -e25 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows -ml
+
+E:\Project\libparserutils\buffer.obj : E:\Project\libparserutils\src\utils\b&
+uffer.c .AUTODEPEND
+ @E:
+ cd E:\Project\libparserutils
+ *wcc src\utils\buffer.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win;E:\Project\libparserutils\src;E:\Project\libparserutils\include" -w4 -&
+e25 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows -ml
+
+E:\Project\libparserutils\errors.obj : E:\Project\libparserutils\src\utils\e&
+rrors.c .AUTODEPEND
+ @E:
+ cd E:\Project\libparserutils
+ *wcc src\utils\errors.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win;E:\Project\libparserutils\src;E:\Project\libparserutils\include" -w4 -&
+e25 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows -ml
+
+E:\Project\libparserutils\stack.obj : E:\Project\libparserutils\src\utils\st&
+ack.c .AUTODEPEND
+ @E:
+ cd E:\Project\libparserutils
+ *wcc src\utils\stack.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h&
+/win;E:\Project\libparserutils\src;E:\Project\libparserutils\include" -w4 -e&
+25 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows -ml
+
+E:\Project\libparserutils\vector.obj : E:\Project\libparserutils\src\utils\v&
+ector.c .AUTODEPEND
+ @E:
+ cd E:\Project\libparserutils
+ *wcc src\utils\vector.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win;E:\Project\libparserutils\src;E:\Project\libparserutils\include" -w4 -&
+e25 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=windows -ml
+
+E:\Project\libparserutils\PARSUTIL.dll : E:\Project\libparserutils\main.obj &
+E:\Project\libparserutils\aliases.obj E:\Project\libparserutils\codec.obj E:&
+\Project\libparserutils\codec_8859.obj E:\Project\libparserutils\codec_ascii&
+.obj E:\Project\libparserutils\codec_ext8.obj E:\Project\libparserutils\code&
+c_utf16.obj E:\Project\libparserutils\codec_utf8.obj E:\Project\libparseruti&
+ls\utf16.obj E:\Project\libparserutils\utf8.obj E:\Project\libparserutils\fi&
+lter.obj E:\Project\libparserutils\inputstream.obj E:\Project\libparserutils&
+\buffer.obj E:\Project\libparserutils\errors.obj E:\Project\libparserutils\s&
+tack.obj E:\Project\libparserutils\vector.obj E:\Project\libparserutils\incl&
+ude\parserutils\charset\codec.h E:\Project\libparserutils\include\parserutil&
+s\charset\mibenum.h E:\Project\libparserutils\include\parserutils\charset\ut&
+f16.h E:\Project\libparserutils\include\parserutils\charset\utf8.h E:\Projec&
+t\libparserutils\include\parserutils\errors.h E:\Project\libparserutils\incl&
+ude\parserutils\functypes.h E:\Project\libparserutils\include\parserutils\in&
+put\inputstream.h E:\Project\libparserutils\include\parserutils\parserutils.&
+h E:\Project\libparserutils\include\parserutils\types.h E:\Project\libparser&
+utils\include\parserutils\utils\buffer.h E:\Project\libparserutils\include\p&
+arserutils\utils\stack.h E:\Project\libparserutils\include\parserutils\utils&
+\vector.h .AUTODEPEND
+ @E:
+ cd E:\Project\libparserutils
+ @%write PARSUTIL.lk1 FIL main.obj,aliases.obj,codec.obj,codec_8859.obj,code&
+c_ascii.obj,codec_ext8.obj,codec_utf16.obj,codec_utf8.obj,utf16.obj,utf8.obj&
+,filter.obj,inputstream.obj,buffer.obj,errors.obj,stack.obj,vector.obj
+ @%append PARSUTIL.lk1 
+!ifneq BLANK ""
+ *wlib -q -n -b PARSUTIL.imp 
+ @%append PARSUTIL.lk1 LIBR PARSUTIL.imp
+!endif
+!ifneq BLANK ""
+ @%append PARSUTIL.lk1 op resource=
+!endif
+ *wlink name PARSUTIL d all sys windows_dll op m op maxe=25 op q op symf @PA&
+RSUTIL.lk1
+!ifneq BLANK ""
+!endif
+ *wlib -q -n -b PARSUTIL.lib +PARSUTIL.dll
+
