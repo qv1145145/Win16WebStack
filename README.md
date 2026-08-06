@@ -1,28 +1,35 @@
-# Win16 移植库集合
+# Win16 Porting Library Collection
 
-本仓库包含多个开源项目的 Win16 移植版本，每个子目录对应一个项目，
+This repository contains Win16 ports of several open-source projects.
+Each subdirectory corresponds to one project.
 
-本项目适用于 Windows for Workgroups 3.11 上的复古浏览器开发。
+These libraries are intended for retro browser development
+on Windows for Workgroups 3.11.
 
-| 目录 | 项目 | 原始许可证 |
-|------|------|-----------|
+| Directory | Project | Original License |
+|-----------|---------|------------------|
 | `quickjs/` | QuickJS | MIT |
-| `libcss/` | LibCSS + 依赖 | MIT |
+| `libcss/` | LibCSS + dependencies | MIT |
 | `gumbo/` | Gumbo-parser | Apache-2.0 |
-| `freetype/` | FreeType | FTL (BSD-like) 或 GPLv2 |
+| `freetype/` | FreeType | FTL (BSD-like) or GPLv2 |
 | `wolfssl/` | WolfSSL | GPLv3 |
 
-## 支持
+## Support
 
-除WolfSSL外的其他库版本是现在(2026/8/5)最新的
+All libraries except WolfSSL are the latest versions as of 2026-08-05.
 
-仅保证基础功能正常，如果你发现有问题可以把源代码下载下来进行更新，欢迎修补
+Only basic functionality is guaranteed to work.
+If you find any issues, feel free to download the source code
+and submit fixes — contributions are welcome.
 
-由于wolfssl的协议限制，在这里给出wolfssl的win16移植版源代码，
+Due to WolfSSL's license restrictions, the Win16 port of its
+source code is provided separately:
 
-在[这里](https://dialup.net/wingpt/download/wolfssl10.zip)下载
+[Download wolfssl-win16 source](https://dialup.net/wingpt/download/wolfssl10.zip)
 
-## 许可证
+## License
 
-- 每个子目录下的代码受其原项目许可证约束，详见各子目录中的 `LICENSE` 文件。
-- 本仓库中由 qv1145145 编写的移植代码（如 `win16_compat.h`、构建脚本、测试程序等）采用 MIT 许可证。
+- The code in each subdirectory is governed by the original project's
+  license. See the `LICENSE` file in each subdirectory for details.
+- The porting code written by qv1145145 (such as `win16_compat.h`,
+  build scripts, and test programs) is released under the MIT License.
