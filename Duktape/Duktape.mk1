@@ -1,0 +1,922 @@
+!define BLANK ""
+E:\Project\Duktape\duk_alloc_default.obj : E:\Project\Duktape\src\duk_alloc_&
+default.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_alloc_default.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WA&
+TCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2&
+ -bt=windows -ml
+
+E:\Project\Duktape\duk_api_buffer.obj : E:\Project\Duktape\src\duk_api_buffe&
+r.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_api_buffer.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCO&
+M/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -b&
+t=windows -ml
+
+E:\Project\Duktape\duk_api_bytecode.obj : E:\Project\Duktape\src\duk_api_byt&
+ecode.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_api_bytecode.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WAT&
+COM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 &
+-bt=windows -ml
+
+E:\Project\Duktape\duk_api_call.obj : E:\Project\Duktape\src\duk_api_call.c &
+.AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_api_call.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=&
+windows -ml
+
+E:\Project\Duktape\duk_api_codec.obj : E:\Project\Duktape\src\duk_api_codec.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_api_codec.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt&
+=windows -ml
+
+E:\Project\Duktape\duk_api_compile.obj : E:\Project\Duktape\src\duk_api_comp&
+ile.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_api_compile.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATC&
+OM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -&
+bt=windows -ml
+
+E:\Project\Duktape\duk_api_debug.obj : E:\Project\Duktape\src\duk_api_debug.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_api_debug.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt&
+=windows -ml
+
+E:\Project\Duktape\duk_api_heap.obj : E:\Project\Duktape\src\duk_api_heap.c &
+.AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_api_heap.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=&
+windows -ml
+
+E:\Project\Duktape\duk_api_inspect.obj : E:\Project\Duktape\src\duk_api_insp&
+ect.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_api_inspect.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATC&
+OM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -&
+bt=windows -ml
+
+E:\Project\Duktape\duk_api_memory.obj : E:\Project\Duktape\src\duk_api_memor&
+y.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_api_memory.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCO&
+M/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -b&
+t=windows -ml
+
+E:\Project\Duktape\duk_api_object.obj : E:\Project\Duktape\src\duk_api_objec&
+t.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_api_object.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCO&
+M/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -b&
+t=windows -ml
+
+E:\Project\Duktape\duk_api_random.obj : E:\Project\Duktape\src\duk_api_rando&
+m.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_api_random.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCO&
+M/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -b&
+t=windows -ml
+
+E:\Project\Duktape\duk_api_stack.obj : E:\Project\Duktape\src\duk_api_stack.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_api_stack.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt&
+=windows -ml
+
+E:\Project\Duktape\duk_api_string.obj : E:\Project\Duktape\src\duk_api_strin&
+g.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_api_string.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCO&
+M/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -b&
+t=windows -ml
+
+E:\Project\Duktape\duk_api_time.obj : E:\Project\Duktape\src\duk_api_time.c &
+.AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_api_time.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=&
+windows -ml
+
+E:\Project\Duktape\duk_bi_array.obj : E:\Project\Duktape\src\duk_bi_array.c &
+.AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_array.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=&
+windows -ml
+
+E:\Project\Duktape\duk_bi_boolean.obj : E:\Project\Duktape\src\duk_bi_boolea&
+n.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_boolean.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCO&
+M/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -b&
+t=windows -ml
+
+E:\Project\Duktape\duk_bi_buffer.obj : E:\Project\Duktape\src\duk_bi_buffer.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_buffer.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt&
+=windows -ml
+
+E:\Project\Duktape\duk_bi_cbor.obj : E:\Project\Duktape\src\duk_bi_cbor.c .A&
+UTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_cbor.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h&
+/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=w&
+indows -ml
+
+E:\Project\Duktape\duk_bi_date.obj : E:\Project\Duktape\src\duk_bi_date.c .A&
+UTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_date.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h&
+/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=w&
+indows -ml
+
+E:\Project\Duktape\duk_bi_date_unix.obj : E:\Project\Duktape\src\duk_bi_date&
+_unix.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_date_unix.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WAT&
+COM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 &
+-bt=windows -ml
+
+E:\Project\Duktape\duk_bi_duktape.obj : E:\Project\Duktape\src\duk_bi_duktap&
+e.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_duktape.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCO&
+M/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -b&
+t=windows -ml
+
+E:\Project\Duktape\duk_bi_encoding.obj : E:\Project\Duktape\src\duk_bi_encod&
+ing.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_encoding.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATC&
+OM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -&
+bt=windows -ml
+
+E:\Project\Duktape\duk_bi_error.obj : E:\Project\Duktape\src\duk_bi_error.c &
+.AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_error.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=&
+windows -ml
+
+E:\Project\Duktape\duk_bi_function.obj : E:\Project\Duktape\src\duk_bi_funct&
+ion.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_function.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATC&
+OM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -&
+bt=windows -ml
+
+E:\Project\Duktape\duk_bi_global.obj : E:\Project\Duktape\src\duk_bi_global.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_global.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt&
+=windows -ml
+
+E:\Project\Duktape\duk_bi_json.obj : E:\Project\Duktape\src\duk_bi_json.c .A&
+UTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_json.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h&
+/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=w&
+indows -ml
+
+E:\Project\Duktape\duk_bi_math.obj : E:\Project\Duktape\src\duk_bi_math.c .A&
+UTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_math.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h&
+/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=w&
+indows -ml
+
+E:\Project\Duktape\duk_bi_number.obj : E:\Project\Duktape\src\duk_bi_number.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_number.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt&
+=windows -ml
+
+E:\Project\Duktape\duk_bi_object.obj : E:\Project\Duktape\src\duk_bi_object.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_object.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt&
+=windows -ml
+
+E:\Project\Duktape\duk_bi_performance.obj : E:\Project\Duktape\src\duk_bi_pe&
+rformance.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_performance.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\W&
+ATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -&
+2 -bt=windows -ml
+
+E:\Project\Duktape\duk_bi_pointer.obj : E:\Project\Duktape\src\duk_bi_pointe&
+r.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_pointer.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCO&
+M/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -b&
+t=windows -ml
+
+E:\Project\Duktape\duk_bi_promise.obj : E:\Project\Duktape\src\duk_bi_promis&
+e.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_promise.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCO&
+M/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -b&
+t=windows -ml
+
+E:\Project\Duktape\duk_bi_proxy.obj : E:\Project\Duktape\src\duk_bi_proxy.c &
+.AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_proxy.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=&
+windows -ml
+
+E:\Project\Duktape\duk_bi_reflect.obj : E:\Project\Duktape\src\duk_bi_reflec&
+t.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_reflect.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCO&
+M/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -b&
+t=windows -ml
+
+E:\Project\Duktape\duk_bi_regexp.obj : E:\Project\Duktape\src\duk_bi_regexp.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_regexp.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt&
+=windows -ml
+
+E:\Project\Duktape\duk_bi_string.obj : E:\Project\Duktape\src\duk_bi_string.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_string.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt&
+=windows -ml
+
+E:\Project\Duktape\duk_bi_symbol.obj : E:\Project\Duktape\src\duk_bi_symbol.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_symbol.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt&
+=windows -ml
+
+E:\Project\Duktape\duk_bi_thread.obj : E:\Project\Duktape\src\duk_bi_thread.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_thread.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt&
+=windows -ml
+
+E:\Project\Duktape\duk_bi_thrower.obj : E:\Project\Duktape\src\duk_bi_throwe&
+r.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_bi_thrower.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCO&
+M/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -b&
+t=windows -ml
+
+E:\Project\Duktape\duk_builtins.obj : E:\Project\Duktape\src\duk_builtins.c &
+.AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_builtins.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=&
+windows -ml
+
+E:\Project\Duktape\duk_debug_fixedbuffer.obj : E:\Project\Duktape\src\duk_de&
+bug_fixedbuffer.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_debug_fixedbuffer.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRA&
+M\WATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -z&
+u -2 -bt=windows -ml
+
+E:\Project\Duktape\duk_debug_macros.obj : E:\Project\Duktape\src\duk_debug_m&
+acros.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_debug_macros.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WAT&
+COM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 &
+-bt=windows -ml
+
+E:\Project\Duktape\duk_debug_vsnprintf.obj : E:\Project\Duktape\src\duk_debu&
+g_vsnprintf.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_debug_vsnprintf.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\&
+WATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu &
+-2 -bt=windows -ml
+
+E:\Project\Duktape\duk_debugger.obj : E:\Project\Duktape\src\duk_debugger.c &
+.AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_debugger.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=&
+windows -ml
+
+E:\Project\Duktape\duk_error_augment.obj : E:\Project\Duktape\src\duk_error_&
+augment.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_error_augment.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WA&
+TCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2&
+ -bt=windows -ml
+
+E:\Project\Duktape\duk_error_longjmp.obj : E:\Project\Duktape\src\duk_error_&
+longjmp.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_error_longjmp.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WA&
+TCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2&
+ -bt=windows -ml
+
+E:\Project\Duktape\duk_error_macros.obj : E:\Project\Duktape\src\duk_error_m&
+acros.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_error_macros.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WAT&
+COM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 &
+-bt=windows -ml
+
+E:\Project\Duktape\duk_error_misc.obj : E:\Project\Duktape\src\duk_error_mis&
+c.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_error_misc.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCO&
+M/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -b&
+t=windows -ml
+
+E:\Project\Duktape\duk_error_throw.obj : E:\Project\Duktape\src\duk_error_th&
+row.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_error_throw.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATC&
+OM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -&
+bt=windows -ml
+
+E:\Project\Duktape\duk_hbuffer_alloc.obj : E:\Project\Duktape\src\duk_hbuffe&
+r_alloc.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_hbuffer_alloc.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WA&
+TCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2&
+ -bt=windows -ml
+
+E:\Project\Duktape\duk_hbuffer_assert.obj : E:\Project\Duktape\src\duk_hbuff&
+er_assert.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_hbuffer_assert.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\W&
+ATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -&
+2 -bt=windows -ml
+
+E:\Project\Duktape\duk_hbuffer_ops.obj : E:\Project\Duktape\src\duk_hbuffer_&
+ops.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_hbuffer_ops.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATC&
+OM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -&
+bt=windows -ml
+
+E:\Project\Duktape\duk_hbufobj_misc.obj : E:\Project\Duktape\src\duk_hbufobj&
+_misc.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_hbufobj_misc.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WAT&
+COM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 &
+-bt=windows -ml
+
+E:\Project\Duktape\duk_heap_alloc.obj : E:\Project\Duktape\src\duk_heap_allo&
+c.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_heap_alloc.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCO&
+M/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -b&
+t=windows -ml
+
+E:\Project\Duktape\duk_heap_finalize.obj : E:\Project\Duktape\src\duk_heap_f&
+inalize.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_heap_finalize.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WA&
+TCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2&
+ -bt=windows -ml
+
+E:\Project\Duktape\duk_heap_hashstring.obj : E:\Project\Duktape\src\duk_heap&
+_hashstring.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_heap_hashstring.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\&
+WATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu &
+-2 -bt=windows -ml
+
+E:\Project\Duktape\duk_heap_markandsweep.obj : E:\Project\Duktape\src\duk_he&
+ap_markandsweep.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_heap_markandsweep.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRA&
+M\WATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -z&
+u -2 -bt=windows -ml
+
+E:\Project\Duktape\duk_heap_memory.obj : E:\Project\Duktape\src\duk_heap_mem&
+ory.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_heap_memory.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATC&
+OM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -&
+bt=windows -ml
+
+E:\Project\Duktape\duk_heap_misc.obj : E:\Project\Duktape\src\duk_heap_misc.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_heap_misc.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt&
+=windows -ml
+
+E:\Project\Duktape\duk_heap_refcount.obj : E:\Project\Duktape\src\duk_heap_r&
+efcount.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_heap_refcount.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WA&
+TCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2&
+ -bt=windows -ml
+
+E:\Project\Duktape\duk_heap_stringcache.obj : E:\Project\Duktape\src\duk_hea&
+p_stringcache.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_heap_stringcache.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM&
+\WATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu&
+ -2 -bt=windows -ml
+
+E:\Project\Duktape\duk_heap_stringtable.obj : E:\Project\Duktape\src\duk_hea&
+p_stringtable.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_heap_stringtable.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM&
+\WATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu&
+ -2 -bt=windows -ml
+
+E:\Project\Duktape\duk_heaphdr_assert.obj : E:\Project\Duktape\src\duk_heaph&
+dr_assert.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_heaphdr_assert.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\W&
+ATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -&
+2 -bt=windows -ml
+
+E:\Project\Duktape\duk_hobject_alloc.obj : E:\Project\Duktape\src\duk_hobjec&
+t_alloc.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_hobject_alloc.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WA&
+TCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2&
+ -bt=windows -ml
+
+E:\Project\Duktape\duk_hobject_assert.obj : E:\Project\Duktape\src\duk_hobje&
+ct_assert.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_hobject_assert.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\W&
+ATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -&
+2 -bt=windows -ml
+
+E:\Project\Duktape\duk_hobject_class.obj : E:\Project\Duktape\src\duk_hobjec&
+t_class.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_hobject_class.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WA&
+TCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2&
+ -bt=windows -ml
+
+E:\Project\Duktape\duk_hobject_enum.obj : E:\Project\Duktape\src\duk_hobject&
+_enum.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_hobject_enum.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WAT&
+COM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 &
+-bt=windows -ml
+
+E:\Project\Duktape\duk_hobject_misc.obj : E:\Project\Duktape\src\duk_hobject&
+_misc.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_hobject_misc.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WAT&
+COM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 &
+-bt=windows -ml
+
+E:\Project\Duktape\duk_hobject_pc2line.obj : E:\Project\Duktape\src\duk_hobj&
+ect_pc2line.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_hobject_pc2line.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\&
+WATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu &
+-2 -bt=windows -ml
+
+E:\Project\Duktape\duk_hobject_props.obj : E:\Project\Duktape\src\duk_hobjec&
+t_props.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_hobject_props.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WA&
+TCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2&
+ -bt=windows -ml
+
+E:\Project\Duktape\duk_hstring_assert.obj : E:\Project\Duktape\src\duk_hstri&
+ng_assert.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_hstring_assert.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\W&
+ATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -&
+2 -bt=windows -ml
+
+E:\Project\Duktape\duk_hstring_misc.obj : E:\Project\Duktape\src\duk_hstring&
+_misc.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_hstring_misc.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WAT&
+COM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 &
+-bt=windows -ml
+
+E:\Project\Duktape\duk_hthread_alloc.obj : E:\Project\Duktape\src\duk_hthrea&
+d_alloc.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_hthread_alloc.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WA&
+TCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2&
+ -bt=windows -ml
+
+E:\Project\Duktape\duk_hthread_builtins.obj : E:\Project\Duktape\src\duk_hth&
+read_builtins.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_hthread_builtins.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM&
+\WATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu&
+ -2 -bt=windows -ml
+
+E:\Project\Duktape\duk_hthread_misc.obj : E:\Project\Duktape\src\duk_hthread&
+_misc.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_hthread_misc.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WAT&
+COM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 &
+-bt=windows -ml
+
+E:\Project\Duktape\duk_hthread_stacks.obj : E:\Project\Duktape\src\duk_hthre&
+ad_stacks.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_hthread_stacks.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\W&
+ATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -&
+2 -bt=windows -ml
+
+E:\Project\Duktape\duk_js_arith.obj : E:\Project\Duktape\src\duk_js_arith.c &
+.AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_js_arith.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=&
+windows -ml
+
+E:\Project\Duktape\duk_js_call.obj : E:\Project\Duktape\src\duk_js_call.c .A&
+UTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_js_call.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h&
+/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=w&
+indows -ml
+
+E:\Project\Duktape\duk_js_compiler.obj : E:\Project\Duktape\src\duk_js_compi&
+ler.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_js_compiler.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATC&
+OM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -&
+bt=windows -ml
+
+E:\Project\Duktape\duk_js_executor.obj : E:\Project\Duktape\src\duk_js_execu&
+tor.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_js_executor.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATC&
+OM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -&
+bt=windows -ml
+
+E:\Project\Duktape\duk_js_ops.obj : E:\Project\Duktape\src\duk_js_ops.c .AUT&
+ODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_js_ops.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/&
+win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=wi&
+ndows -ml
+
+E:\Project\Duktape\duk_js_var.obj : E:\Project\Duktape\src\duk_js_var.c .AUT&
+ODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_js_var.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/&
+win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=wi&
+ndows -ml
+
+E:\Project\Duktape\duk_lexer.obj : E:\Project\Duktape\src\duk_lexer.c .AUTOD&
+EPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_lexer.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/w&
+in" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=win&
+dows -ml
+
+E:\Project\Duktape\duk_numconv.obj : E:\Project\Duktape\src\duk_numconv.c .A&
+UTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_numconv.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h&
+/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=w&
+indows -ml
+
+E:\Project\Duktape\duk_regexp_compiler.obj : E:\Project\Duktape\src\duk_rege&
+xp_compiler.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_regexp_compiler.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\&
+WATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu &
+-2 -bt=windows -ml
+
+E:\Project\Duktape\duk_regexp_executor.obj : E:\Project\Duktape\src\duk_rege&
+xp_executor.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_regexp_executor.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\&
+WATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu &
+-2 -bt=windows -ml
+
+E:\Project\Duktape\duk_replacements.obj : E:\Project\Duktape\src\duk_replace&
+ments.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_replacements.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WAT&
+COM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 &
+-bt=windows -ml
+
+E:\Project\Duktape\duk_selftest.obj : E:\Project\Duktape\src\duk_selftest.c &
+.AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_selftest.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=&
+windows -ml
+
+E:\Project\Duktape\duk_tval.obj : E:\Project\Duktape\src\duk_tval.c .AUTODEP&
+END
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_tval.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/wi&
+n" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=wind&
+ows -ml
+
+E:\Project\Duktape\duk_unicode_support.obj : E:\Project\Duktape\src\duk_unic&
+ode_support.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_unicode_support.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\&
+WATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu &
+-2 -bt=windows -ml
+
+E:\Project\Duktape\duk_unicode_tables.obj : E:\Project\Duktape\src\duk_unico&
+de_tables.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_unicode_tables.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\W&
+ATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -&
+2 -bt=windows -ml
+
+E:\Project\Duktape\duk_util_bitdecoder.obj : E:\Project\Duktape\src\duk_util&
+_bitdecoder.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_util_bitdecoder.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\&
+WATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu &
+-2 -bt=windows -ml
+
+E:\Project\Duktape\duk_util_bitencoder.obj : E:\Project\Duktape\src\duk_util&
+_bitencoder.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_util_bitencoder.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\&
+WATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu &
+-2 -bt=windows -ml
+
+E:\Project\Duktape\duk_util_bufwriter.obj : E:\Project\Duktape\src\duk_util_&
+bufwriter.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_util_bufwriter.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\W&
+ATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -&
+2 -bt=windows -ml
+
+E:\Project\Duktape\duk_util_cast.obj : E:\Project\Duktape\src\duk_util_cast.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_util_cast.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt&
+=windows -ml
+
+E:\Project\Duktape\duk_util_double.obj : E:\Project\Duktape\src\duk_util_dou&
+ble.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_util_double.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATC&
+OM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -&
+bt=windows -ml
+
+E:\Project\Duktape\duk_util_hashbytes.obj : E:\Project\Duktape\src\duk_util_&
+hashbytes.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_util_hashbytes.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\W&
+ATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -&
+2 -bt=windows -ml
+
+E:\Project\Duktape\duk_util_memory.obj : E:\Project\Duktape\src\duk_util_mem&
+ory.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_util_memory.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATC&
+OM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -&
+bt=windows -ml
+
+E:\Project\Duktape\duk_util_memrw.obj : E:\Project\Duktape\src\duk_util_memr&
+w.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_util_memrw.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCO&
+M/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -b&
+t=windows -ml
+
+E:\Project\Duktape\duk_util_misc.obj : E:\Project\Duktape\src\duk_util_misc.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_util_misc.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt&
+=windows -ml
+
+E:\Project\Duktape\duk_util_tinyrandom.obj : E:\Project\Duktape\src\duk_util&
+_tinyrandom.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\duk_util_tinyrandom.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\&
+WATCOM/h/win" -w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu &
+-2 -bt=windows -ml
+
+E:\Project\Duktape\main.obj : E:\Project\Duktape\src\main.c .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ *wcc src\main.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/win" -&
+w4 -e25 -wcd136 -wcd124 -wcd201 -d_WIN16 -zq -od -d2 -bd -zu -2 -bt=windows &
+-ml
+
+E:\Project\Duktape\Duktape.dll : E:\Project\Duktape\duk_alloc_default.obj E:&
+\Project\Duktape\duk_api_buffer.obj E:\Project\Duktape\duk_api_bytecode.obj &
+E:\Project\Duktape\duk_api_call.obj E:\Project\Duktape\duk_api_codec.obj E:\&
+Project\Duktape\duk_api_compile.obj E:\Project\Duktape\duk_api_debug.obj E:\&
+Project\Duktape\duk_api_heap.obj E:\Project\Duktape\duk_api_inspect.obj E:\P&
+roject\Duktape\duk_api_memory.obj E:\Project\Duktape\duk_api_object.obj E:\P&
+roject\Duktape\duk_api_random.obj E:\Project\Duktape\duk_api_stack.obj E:\Pr&
+oject\Duktape\duk_api_string.obj E:\Project\Duktape\duk_api_time.obj E:\Proj&
+ect\Duktape\duk_bi_array.obj E:\Project\Duktape\duk_bi_boolean.obj E:\Projec&
+t\Duktape\duk_bi_buffer.obj E:\Project\Duktape\duk_bi_cbor.obj E:\Project\Du&
+ktape\duk_bi_date.obj E:\Project\Duktape\duk_bi_date_unix.obj E:\Project\Duk&
+tape\duk_bi_duktape.obj E:\Project\Duktape\duk_bi_encoding.obj E:\Project\Du&
+ktape\duk_bi_error.obj E:\Project\Duktape\duk_bi_function.obj E:\Project\Duk&
+tape\duk_bi_global.obj E:\Project\Duktape\duk_bi_json.obj E:\Project\Duktape&
+\duk_bi_math.obj E:\Project\Duktape\duk_bi_number.obj E:\Project\Duktape\duk&
+_bi_object.obj E:\Project\Duktape\duk_bi_performance.obj E:\Project\Duktape\&
+duk_bi_pointer.obj E:\Project\Duktape\duk_bi_promise.obj E:\Project\Duktape\&
+duk_bi_proxy.obj E:\Project\Duktape\duk_bi_reflect.obj E:\Project\Duktape\du&
+k_bi_regexp.obj E:\Project\Duktape\duk_bi_string.obj E:\Project\Duktape\duk_&
+bi_symbol.obj E:\Project\Duktape\duk_bi_thread.obj E:\Project\Duktape\duk_bi&
+_thrower.obj E:\Project\Duktape\duk_builtins.obj E:\Project\Duktape\duk_debu&
+g_fixedbuffer.obj E:\Project\Duktape\duk_debug_macros.obj E:\Project\Duktape&
+\duk_debug_vsnprintf.obj E:\Project\Duktape\duk_debugger.obj E:\Project\Dukt&
+ape\duk_error_augment.obj E:\Project\Duktape\duk_error_longjmp.obj E:\Projec&
+t\Duktape\duk_error_macros.obj E:\Project\Duktape\duk_error_misc.obj E:\Proj&
+ect\Duktape\duk_error_throw.obj E:\Project\Duktape\duk_hbuffer_alloc.obj E:\&
+Project\Duktape\duk_hbuffer_assert.obj E:\Project\Duktape\duk_hbuffer_ops.ob&
+j E:\Project\Duktape\duk_hbufobj_misc.obj E:\Project\Duktape\duk_heap_alloc.&
+obj E:\Project\Duktape\duk_heap_finalize.obj E:\Project\Duktape\duk_heap_has&
+hstring.obj E:\Project\Duktape\duk_heap_markandsweep.obj E:\Project\Duktape\&
+duk_heap_memory.obj E:\Project\Duktape\duk_heap_misc.obj E:\Project\Duktape\&
+duk_heap_refcount.obj E:\Project\Duktape\duk_heap_stringcache.obj E:\Project&
+\Duktape\duk_heap_stringtable.obj E:\Project\Duktape\duk_heaphdr_assert.obj &
+E:\Project\Duktape\duk_hobject_alloc.obj E:\Project\Duktape\duk_hobject_asse&
+rt.obj E:\Project\Duktape\duk_hobject_class.obj E:\Project\Duktape\duk_hobje&
+ct_enum.obj E:\Project\Duktape\duk_hobject_misc.obj E:\Project\Duktape\duk_h&
+object_pc2line.obj E:\Project\Duktape\duk_hobject_props.obj E:\Project\Dukta&
+pe\duk_hstring_assert.obj E:\Project\Duktape\duk_hstring_misc.obj E:\Project&
+\Duktape\duk_hthread_alloc.obj E:\Project\Duktape\duk_hthread_builtins.obj E&
+:\Project\Duktape\duk_hthread_misc.obj E:\Project\Duktape\duk_hthread_stacks&
+.obj E:\Project\Duktape\duk_js_arith.obj E:\Project\Duktape\duk_js_call.obj &
+E:\Project\Duktape\duk_js_compiler.obj E:\Project\Duktape\duk_js_executor.ob&
+j E:\Project\Duktape\duk_js_ops.obj E:\Project\Duktape\duk_js_var.obj E:\Pro&
+ject\Duktape\duk_lexer.obj E:\Project\Duktape\duk_numconv.obj E:\Project\Duk&
+tape\duk_regexp_compiler.obj E:\Project\Duktape\duk_regexp_executor.obj E:\P&
+roject\Duktape\duk_replacements.obj E:\Project\Duktape\duk_selftest.obj E:\P&
+roject\Duktape\duk_tval.obj E:\Project\Duktape\duk_unicode_support.obj E:\Pr&
+oject\Duktape\duk_unicode_tables.obj E:\Project\Duktape\duk_util_bitdecoder.&
+obj E:\Project\Duktape\duk_util_bitencoder.obj E:\Project\Duktape\duk_util_b&
+ufwriter.obj E:\Project\Duktape\duk_util_cast.obj E:\Project\Duktape\duk_uti&
+l_double.obj E:\Project\Duktape\duk_util_hashbytes.obj E:\Project\Duktape\du&
+k_util_memory.obj E:\Project\Duktape\duk_util_memrw.obj E:\Project\Duktape\d&
+uk_util_misc.obj E:\Project\Duktape\duk_util_tinyrandom.obj E:\Project\Dukta&
+pe\main.obj .AUTODEPEND
+ @E:
+ cd E:\Project\Duktape
+ @%write Duktape.lk1 FIL duk_alloc_default.obj,duk_api_buffer.obj,duk_api_by&
+tecode.obj,duk_api_call.obj,duk_api_codec.obj,duk_api_compile.obj,duk_api_de&
+bug.obj,duk_api_heap.obj,duk_api_inspect.obj,duk_api_memory.obj,duk_api_obje&
+ct.obj,duk_api_random.obj,duk_api_stack.obj,duk_api_string.obj,duk_api_time.&
+obj,duk_bi_array.obj,duk_bi_boolean.obj,duk_bi_buffer.obj,duk_bi_cbor.obj,du&
+k_bi_date.obj,duk_bi_date_unix.obj,duk_bi_duktape.obj,duk_bi_encoding.obj,du&
+k_bi_error.obj,duk_bi_function.obj,duk_bi_global.obj,duk_bi_json.obj,duk_bi_&
+math.obj,duk_bi_number.obj,duk_bi_object.obj,duk_bi_performance.obj,duk_bi_p&
+ointer.obj,duk_bi_promise.obj,duk_bi_proxy.obj,duk_bi_reflect.obj,duk_bi_reg&
+exp.obj,duk_bi_string.obj,duk_bi_symbol.obj,duk_bi_thread.obj,duk_bi_thrower&
+.obj,duk_builtins.obj,duk_debug_fixedbuffer.obj,duk_debug_macros.obj,duk_deb&
+ug_vsnprintf.obj,duk_debugger.obj,duk_error_augment.obj,duk_error_longjmp.ob&
+j,duk_error_macros.obj,duk_error_misc.obj,duk_error_throw.obj,duk_hbuffer_al&
+loc.obj,duk_hbuffer_assert.obj,duk_hbuffer_ops.obj,duk_hbufobj_misc.obj,duk_&
+heap_alloc.obj,duk_heap_finalize.obj,duk_heap_hashstring.obj,duk_heap_markan&
+dsweep.obj,duk_heap_memory.obj,duk_heap_misc.obj,duk_heap_refcount.obj,duk_h&
+eap_stringcache.obj,duk_heap_stringtable.obj,duk_heaphdr_assert.obj,duk_hobj&
+ect_alloc.obj,duk_hobject_assert.obj,duk_hobject_class.obj,duk_hobject_enum.&
+obj,duk_hobject_misc.obj,duk_hobject_pc2line.obj,duk_hobject_props.obj,duk_h&
+string_assert.obj,duk_hstring_misc.obj,duk_hthread_alloc.obj,duk_hthread_bui&
+ltins.obj,duk_hthread_misc.obj,duk_hthread_stacks.obj,duk_js_arith.obj,duk_j&
+s_call.obj,duk_js_compiler.obj,duk_js_executor.obj,duk_js_ops.obj,duk_js_var&
+.obj,duk_lexer.obj,duk_numconv.obj,duk_regexp_compiler.obj,duk_regexp_execut&
+or.obj,duk_replacements.obj,duk_selftest.obj,duk_tval.obj,duk_unicode_suppor&
+t.obj,duk_unicode_tables.obj,duk_util_bitdecoder.obj,duk_util_bitencoder.obj&
+,duk_util_bufwriter.obj,duk_util_cast.obj,duk_util_double.obj,duk_util_hashb&
+ytes.obj,duk_util_memory.obj,duk_util_memrw.obj,duk_util_misc.obj,duk_util_t&
+inyrandom.obj,main.obj
+ @%append Duktape.lk1 
+!ifneq BLANK ""
+ *wlib -q -n -b Duktape.imp 
+ @%append Duktape.lk1 LIBR Duktape.imp
+!endif
+!ifneq BLANK ""
+ @%append Duktape.lk1 op resource=
+!endif
+ *wlink name Duktape d all sys windows_dll op m op maxe=25 op q op symf @Duk&
+tape.lk1
+!ifneq BLANK ""
+!endif
+ *wlib -q -n -b Duktape.lib +Duktape.dll
+

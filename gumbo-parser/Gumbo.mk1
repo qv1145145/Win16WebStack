@@ -1,0 +1,141 @@
+!define BLANK ""
+E:\Project\gumbo-parser\attribute.obj : E:\Project\gumbo-parser\src\attribut&
+e.c .AUTODEPEND
+ @E:
+ cd E:\Project\gumbo-parser
+ *wcc src\attribute.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/w&
+in" -w4 -e25 -wcd303 -wcd138 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 &
+-bt=windows -ml
+
+E:\Project\gumbo-parser\char_ref.obj : E:\Project\gumbo-parser\src\char_ref.&
+c .AUTODEPEND
+ @E:
+ cd E:\Project\gumbo-parser
+ *wcc src\char_ref.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/wi&
+n" -w4 -e25 -wcd303 -wcd138 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -&
+bt=windows -ml
+
+E:\Project\gumbo-parser\char_ref_gperf.obj : E:\Project\gumbo-parser\src\cha&
+r_ref_gperf.c .AUTODEPEND
+ @E:
+ cd E:\Project\gumbo-parser
+ *wcc src\char_ref_gperf.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCO&
+M/h/win" -w4 -e25 -wcd303 -wcd138 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -z&
+u -2 -bt=windows -ml
+
+E:\Project\gumbo-parser\error.obj : E:\Project\gumbo-parser\src\error.c .AUT&
+ODEPEND
+ @E:
+ cd E:\Project\gumbo-parser
+ *wcc src\error.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/win" &
+-w4 -e25 -wcd303 -wcd138 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=&
+windows -ml
+
+E:\Project\gumbo-parser\main.obj : E:\Project\gumbo-parser\src\main.c .AUTOD&
+EPEND
+ @E:
+ cd E:\Project\gumbo-parser
+ *wcc src\main.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/win" -&
+w4 -e25 -wcd303 -wcd138 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=w&
+indows -ml
+
+E:\Project\gumbo-parser\parser.obj : E:\Project\gumbo-parser\src\parser.c .A&
+UTODEPEND
+ @E:
+ cd E:\Project\gumbo-parser
+ *wcc src\parser.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/win"&
+ -w4 -e25 -wcd303 -wcd138 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt&
+=windows -ml
+
+E:\Project\gumbo-parser\string_buffer.obj : E:\Project\gumbo-parser\src\stri&
+ng_buffer.c .AUTODEPEND
+ @E:
+ cd E:\Project\gumbo-parser
+ *wcc src\string_buffer.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM&
+/h/win" -w4 -e25 -wcd303 -wcd138 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu&
+ -2 -bt=windows -ml
+
+E:\Project\gumbo-parser\string_piece.obj : E:\Project\gumbo-parser\src\strin&
+g_piece.c .AUTODEPEND
+ @E:
+ cd E:\Project\gumbo-parser
+ *wcc src\string_piece.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/&
+h/win" -w4 -e25 -wcd303 -wcd138 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu &
+-2 -bt=windows -ml
+
+E:\Project\gumbo-parser\tag.obj : E:\Project\gumbo-parser\src\tag.c .AUTODEP&
+END
+ @E:
+ cd E:\Project\gumbo-parser
+ *wcc src\tag.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/win" -w&
+4 -e25 -wcd303 -wcd138 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=wi&
+ndows -ml
+
+E:\Project\gumbo-parser\tokenizer.obj : E:\Project\gumbo-parser\src\tokenize&
+r.c .AUTODEPEND
+ @E:
+ cd E:\Project\gumbo-parser
+ *wcc src\tokenizer.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/w&
+in" -w4 -e25 -wcd303 -wcd138 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 &
+-bt=windows -ml
+
+E:\Project\gumbo-parser\utf8.obj : E:\Project\gumbo-parser\src\utf8.c .AUTOD&
+EPEND
+ @E:
+ cd E:\Project\gumbo-parser
+ *wcc src\utf8.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/win" -&
+w4 -e25 -wcd303 -wcd138 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=w&
+indows -ml
+
+E:\Project\gumbo-parser\util.obj : E:\Project\gumbo-parser\src\util.c .AUTOD&
+EPEND
+ @E:
+ cd E:\Project\gumbo-parser
+ *wcc src\util.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/win" -&
+w4 -e25 -wcd303 -wcd138 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt=w&
+indows -ml
+
+E:\Project\gumbo-parser\vector.obj : E:\Project\gumbo-parser\src\vector.c .A&
+UTODEPEND
+ @E:
+ cd E:\Project\gumbo-parser
+ *wcc src\vector.c -fo=.obj -i="D:\PROGRAM\WATCOM/h;D:\PROGRAM\WATCOM/h/win"&
+ -w4 -e25 -wcd303 -wcd138 -zastd=c99 -d_WIN16 -zq -aa -od -d2 -bd -zu -2 -bt&
+=windows -ml
+
+E:\Project\gumbo-parser\Gumbo.dll : E:\Project\gumbo-parser\attribute.obj E:&
+\Project\gumbo-parser\char_ref.obj E:\Project\gumbo-parser\char_ref_gperf.ob&
+j E:\Project\gumbo-parser\error.obj E:\Project\gumbo-parser\main.obj E:\Proj&
+ect\gumbo-parser\parser.obj E:\Project\gumbo-parser\string_buffer.obj E:\Pro&
+ject\gumbo-parser\string_piece.obj E:\Project\gumbo-parser\tag.obj E:\Projec&
+t\gumbo-parser\tokenizer.obj E:\Project\gumbo-parser\utf8.obj E:\Project\gum&
+bo-parser\util.obj E:\Project\gumbo-parser\vector.obj E:\Project\gumbo-parse&
+r\src\attribute.h E:\Project\gumbo-parser\src\char_ref.h E:\Project\gumbo-pa&
+rser\src\error.h E:\Project\gumbo-parser\src\gumbo.h E:\Project\gumbo-parser&
+\src\insertion_mode.h E:\Project\gumbo-parser\src\parser.h E:\Project\gumbo-&
+parser\src\string_buffer.h E:\Project\gumbo-parser\src\string_piece.h E:\Pro&
+ject\gumbo-parser\src\tag_enum.h E:\Project\gumbo-parser\src\tag_gperf.h E:\&
+Project\gumbo-parser\src\tag_sizes.h E:\Project\gumbo-parser\src\tag_strings&
+.h E:\Project\gumbo-parser\src\token_type.h E:\Project\gumbo-parser\src\toke&
+nizer.h E:\Project\gumbo-parser\src\tokenizer_states.h E:\Project\gumbo-pars&
+er\src\utf8.h E:\Project\gumbo-parser\src\util.h E:\Project\gumbo-parser\src&
+\vector.h .AUTODEPEND
+ @E:
+ cd E:\Project\gumbo-parser
+ @%write Gumbo.lk1 FIL attribute.obj,char_ref.obj,char_ref_gperf.obj,error.o&
+bj,main.obj,parser.obj,string_buffer.obj,string_piece.obj,tag.obj,tokenizer.&
+obj,utf8.obj,util.obj,vector.obj
+ @%append Gumbo.lk1 
+!ifneq BLANK ""
+ *wlib -q -n -b Gumbo.imp 
+ @%append Gumbo.lk1 LIBR Gumbo.imp
+!endif
+!ifneq BLANK ""
+ @%append Gumbo.lk1 op resource=
+!endif
+ *wlink name Gumbo d all sys windows_dll op m op maxe=25 op q op symf @Gumbo&
+.lk1
+!ifneq BLANK ""
+!endif
+ *wlib -q -n -b Gumbo.lib +Gumbo.dll
+
