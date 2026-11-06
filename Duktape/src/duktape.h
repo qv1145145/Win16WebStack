@@ -203,10 +203,27 @@
 
 /* Win16 DLL export macro */
 #ifndef DUKTAPE_API
-#if defined(_WIN16)
+/* There are known issues with Open Watcom's __cdecl support (see Issue #1678). 
+ * Rather than applying #pragma aux to every exported function individually, 
+ * I repurposed __stdcall (which is unnecessary in 16-bit environments) 
+ * to simulate a working "__cdecl" using a custom #pragma aux. 
+ * This ensures proper return values for all exported functions. 
+ * Note that this issue does not exist in MSVC, and I bet you won't be using 
+ * 32-bit calling conventions like __stdcall in a 16-bit context anyway. */
+#if defined(_WIN16) && defined(__WATCOMC__)
+#pragma aux (__cdecl) __stdcall \
+    __value __struct __float __struct __caller []
+#define DUKTAPE_API __far __stdcall __export
+/* On Open Watcom, if a callback function accesses data located in the EXE's segment, 
+ * DUK_CALLBACK must be defined. Otherwise, it will return invalid/abnormal values 
+ * (see Issue #1679). However, MSVC works fine without __loadds. */
+#define DUK_CALLBACK __loadds
+#elif defined(_WIN16)
 #define DUKTAPE_API __far __cdecl __export
+#define DUK_CALLBACK __loadds
 #else
 #define DUKTAPE_API
+#define DUK_CALLBACK
 #endif
 #endif
 
